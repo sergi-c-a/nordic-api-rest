@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "netlify deploy --prod",
-    "start": "node funtions/api.js"
+    "start": "node functions/api.js"
   },
   "keywords": [],
   "author": "",
