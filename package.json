@@ -1,15 +1,17 @@
 {
   "name": "nordic-api-rest",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "netlify deploy --prod",
+    "start": "node funtions/api.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "netlify-cli": "^21.5.0",
     "netlify-lambda": "^2.0.16",
