@@ -1,3 +1,8 @@
+import express from 'express';
+import cors from 'cors';
+import serverless from 'serverless-http';
+import fetch from 'node-fetch';
+
 const fetch = require('node-fetch');
 
 const API_URL = 'https://api.nrfcloud.com/v1/messages?deviceId=nrf-351901930761014';
