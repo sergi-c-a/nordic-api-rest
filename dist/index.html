@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación web para visualizar datos de sensores Thingy 91 y su ubicación.">
+    <meta name="author" content="Automatica Integral">
+    <meta name="keywords" content="nRF Cloud, Thingy 91, sensores, ubicación, API">
+    <title>nRF Cloud API</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Librería de Leaflet para usar OpenStreetMaps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <h1>Nordic Thingy 91 Cloud Data</h1>
+    <table border="1">
+        <thead>
+            <h2>Sensor ambiental</h2>
+        </thead>
+        <tbody id="resultado">
+        </tbody>
+    </table>
+    <h2>Ubicación</h2>
+    <div id="map" style="width: 100%; height: 400px;"></div>
+    <script src="script.js"></script>
+</body>
+<footer><p>2025</p></footer>
+</html>
