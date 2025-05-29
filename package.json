@@ -2,6 +2,8 @@
   "name": "nordic-api-rest",
   "version": "1.0.0",
   "main": "index.html",
+  "description": "Site",
+  "type": "module",
   "scripts": {
     "build": "netlify deploy --prod",
     "start": "node funtions/api.js"
