@@ -1,5 +1,5 @@
 [build]
-  command = "cd ./functions/my-function/ && npm install && cd ../../ && npm run generate"
+  command = "npm install && npm run generate"
   functions = "functions"
 [dev]
   publish = "dist"
